@@ -1,0 +1,66 @@
+#contentBox {
+    width: 90%;
+    height: 70%;
+}
+
+#filterDiv{
+    width: 20%;
+    height: 100%;
+    float: left;
+    border-right: 1px solid rgb(58, 58, 58);
+    min-width: 160px;
+    text-align: left;
+}
+
+#CatalogDiv{
+    width:80%;
+    height: 100%;
+    float: left;
+    min-width: 30%;
+    max-width: 80%;
+    /*border: 2px solid red;*/
+}
+
+.upperDiv{
+    height:75%;
+}
+
+.upperDiv img{
+    height:100%;
+}
+
+.bottomDiv{
+    height:25%;
+}
+
+.grid-container{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    padding:5px;
+}
+
+.grid-item {
+    background-color: rgba(255, 255, 255, 0.8);
+    border: 1px solid rgba(0, 0, 0, 0.8);
+    text-align: center;
+    overflow:hidden;
+  }
+  .grid-item:hover {
+    background-color: rgb(201, 201, 201);
+  }
+
+  .priceBox{
+      display: inline;
+      width: 35%;
+  }
+
+  #header{
+    display: block;
+    text-align: center;
+    border-bottom: 1px solid rgb(66, 66, 66);
+  }
+
+  #nextPageDiv{
+      width:120%;
+      display: inline-block;
+  }
